@@ -1,0 +1,283 @@
+[09-Oct-2023 14:51:35 UTC] PHP Fatal error:  Cannot redeclare contact_btn() (previously declared in C:\Users\lenovo\Local Sites\medit\app\public\wp-content\themes\oceanwp-child-theme-master\functions.php:37) in C:\Users\lenovo\Local Sites\medit\app\public\wp-content\themes\oceanwp-child-theme-master\header.php on line 106
+[09-Oct-2023 14:53:59 UTC] PHP Fatal error:  Cannot redeclare contact_btn() (previously declared in C:\Users\lenovo\Local Sites\medit\app\public\wp-content\themes\oceanwp-child-theme-master\functions.php:37) in C:\Users\lenovo\Local Sites\medit\app\public\wp-content\themes\oceanwp-child-theme-master\header.php on line 106
+[09-Oct-2023 14:54:02 UTC] PHP Fatal error:  Cannot redeclare contact_btn() (previously declared in C:\Users\lenovo\Local Sites\medit\app\public\wp-content\themes\oceanwp-child-theme-master\functions.php:37) in C:\Users\lenovo\Local Sites\medit\app\public\wp-content\themes\oceanwp-child-theme-master\header.php on line 106
+[09-Oct-2023 15:28:20 UTC] PHP Fatal error:  Maximum execution time of 1200 seconds exceeded in C:\Users\lenovo\Local Sites\medit\app\public\wp-includes\nav-menu-template.php on line 245
+[09-Oct-2023 15:44:33 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function contact_btnn(), 1 passed in C:\Users\lenovo\Local Sites\medit\app\public\wp-includes\class-wp-hook.php on line 310 and exactly 2 expected in C:\Users\lenovo\Local Sites\medit\app\public\wp-content\themes\oceanwp-child-theme-master\functions.php:37
+Stack trace:
+#0 C:\Users\lenovo\Local Sites\medit\app\public\wp-includes\class-wp-hook.php(310): contact_btnn('')
+#1 C:\Users\lenovo\Local Sites\medit\app\public\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#2 C:\Users\lenovo\Local Sites\medit\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\Users\lenovo\Local Sites\medit\app\public\wp-includes\general-template.php(3053): do_action('wp_head')
+#4 C:\Users\lenovo\Local Sites\medit\app\public\wp-content\themes\oceanwp-child-theme-master\header.php(17): wp_head()
+#5 C:\Users\lenovo\Local Sites\medit\app\public\wp-includes\template.php(807): require_once('C:\\Users\\lenovo...')
+#6 C:\Users\lenovo\Local Sites\medit\app\public\wp-includes\template.php(741): load_template('C:\\Users\\lenovo...', true, Array)
+#7 C:\Users\lenovo\Local Sites\medit\app\public\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#8 C:\Users\lenovo\Local Sites\medit\app\public\wp-content\themes\oceanwp\page.php(12): get_header()
+#9 C:\Users\lenovo\Local Sites\medit\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\lenovo...')
+#10 C:\Users\lenovo\Local Sites\medit\app\public\wp-blog-header.php(19): require_once('C:\\Users\\lenovo...')
+#11 C:\Users\lenovo\Local Sites\medit\app\public\index.php(17): require('C:\\Users\\lenovo...')
+#12 {main}
+  thrown in C:\Users\lenovo\Local Sites\medit\app\public\wp-content\themes\oceanwp-child-theme-master\functions.php on line 37
+[09-Oct-2023 15:45:57 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function contact_btnn(), 1 passed in C:\Users\lenovo\Local Sites\medit\app\public\wp-includes\class-wp-hook.php on line 310 and exactly 2 expected in C:\Users\lenovo\Local Sites\medit\app\public\wp-content\themes\oceanwp-child-theme-master\functions.php:37
+Stack trace:
+#0 C:\Users\lenovo\Local Sites\medit\app\public\wp-includes\class-wp-hook.php(310): contact_btnn('')
+#1 C:\Users\lenovo\Local Sites\medit\app\public\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#2 C:\Users\lenovo\Local Sites\medit\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\Users\lenovo\Local Sites\medit\app\public\wp-includes\general-template.php(3053): do_action('wp_head')
+#4 C:\Users\lenovo\Local Sites\medit\app\public\wp-content\themes\oceanwp-child-theme-master\header.php(17): wp_head()
+#5 C:\Users\lenovo\Local Sites\medit\app\public\wp-includes\template.php(807): require_once('C:\\Users\\lenovo...')
+#6 C:\Users\lenovo\Local Sites\medit\app\public\wp-includes\template.php(741): load_template('C:\\Users\\lenovo...', true, Array)
+#7 C:\Users\lenovo\Local Sites\medit\app\public\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#8 C:\Users\lenovo\Local Sites\medit\app\public\wp-content\themes\oceanwp\page.php(12): get_header()
+#9 C:\Users\lenovo\Local Sites\medit\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\lenovo...')
+#10 C:\Users\lenovo\Local Sites\medit\app\public\wp-blog-header.php(19): require_once('C:\\Users\\lenovo...')
+#11 C:\Users\lenovo\Local Sites\medit\app\public\index.php(17): require('C:\\Users\\lenovo...')
+#12 {main}
+  thrown in C:\Users\lenovo\Local Sites\medit\app\public\wp-content\themes\oceanwp-child-theme-master\functions.php on line 37
+[09-Oct-2023 16:14:19 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function contact_btnn(), 1 passed in C:\Users\lenovo\Local Sites\medit\app\public\wp-includes\class-wp-hook.php on line 310 and exactly 2 expected in C:\Users\lenovo\Local Sites\medit\app\public\wp-content\themes\oceanwp-child-theme-master\functions.php:37
+Stack trace:
+#0 C:\Users\lenovo\Local Sites\medit\app\public\wp-includes\class-wp-hook.php(310): contact_btnn('main_menu')
+#1 C:\Users\lenovo\Local Sites\medit\app\public\wp-includes\plugin.php(205): WP_Hook->apply_filters('main_menu', Array)
+#2 C:\Users\lenovo\Local Sites\medit\app\public\wp-content\themes\oceanwp\partials\header\nav.php(99): apply_filters('ocean_main_menu...', 'main_menu')
+#3 C:\Users\lenovo\Local Sites\medit\app\public\wp-includes\template.php(809): require('C:\\Users\\lenovo...')
+#4 C:\Users\lenovo\Local Sites\medit\app\public\wp-includes\template.php(741): load_template('C:\\Users\\lenovo...', false, Array)
+#5 C:\Users\lenovo\Local Sites\medit\app\public\wp-includes\general-template.php(206): locate_template(Array, true, false, Array)
+#6 C:\Users\lenovo\Local Sites\medit\app\public\wp-content\themes\oceanwp\inc\header-content.php(127): get_template_part('partials/header...')
+#7 C:\Users\lenovo\Local Sites\medit\app\public\wp-includes\class-wp-hook.php(310): oceanwp_header_navigation('')
+#8 C:\Users\lenovo\Local Sites\medit\app\public\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#9 C:\Users\lenovo\Local Sites\medit\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#10 C:\Users\lenovo\Local Sites\medit\app\public\wp-content\themes\oceanwp\partials\header\layout.php(100): do_action('ocean_header_in...')
+#11 C:\Users\lenovo\Local Sites\medit\app\public\wp-includes\template.php(809): require('C:\\Users\\lenovo...')
+#12 C:\Users\lenovo\Local Sites\medit\app\public\wp-includes\template.php(741): load_template('C:\\Users\\lenovo...', false, Array)
+#13 C:\Users\lenovo\Local Sites\medit\app\public\wp-includes\general-template.php(206): locate_template(Array, true, false, Array)
+#14 C:\Users\lenovo\Local Sites\medit\app\public\wp-content\themes\oceanwp\inc\helpers.php(1064): get_template_part('partials/header...')
+#15 C:\Users\lenovo\Local Sites\medit\app\public\wp-includes\class-wp-hook.php(310): oceanwp_header_template('')
+#16 C:\Users\lenovo\Local Sites\medit\app\public\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#17 C:\Users\lenovo\Local Sites\medit\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#18 C:\Users\lenovo\Local Sites\medit\app\public\wp-content\themes\oceanwp-child-theme-master\header.php(36): do_action('ocean_header')
+#19 C:\Users\lenovo\Local Sites\medit\app\public\wp-includes\template.php(807): require_once('C:\\Users\\lenovo...')
+#20 C:\Users\lenovo\Local Sites\medit\app\public\wp-includes\template.php(741): load_template('C:\\Users\\lenovo...', true, Array)
+#21 C:\Users\lenovo\Local Sites\medit\app\public\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#22 C:\Users\lenovo\Local Sites\medit\app\public\wp-content\themes\oceanwp\page.php(12): get_header()
+#23 C:\Users\lenovo\Local Sites\medit\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\lenovo...')
+#24 C:\Users\lenovo\Local Sites\medit\app\public\wp-blog-header.php(19): require_once('C:\\Users\\lenovo...')
+#25 C:\Users\lenovo\Local Sites\medit\app\public\index.php(17): require('C:\\Users\\lenovo...')
+#26 {main}
+  thrown in C:\Users\lenovo\Local Sites\medit\app\public\wp-content\themes\oceanwp-child-theme-master\functions.php on line 37
+[09-Oct-2023 16:14:57 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function contact_btnn(), 1 passed in C:\Users\lenovo\Local Sites\medit\app\public\wp-includes\class-wp-hook.php on line 310 and exactly 2 expected in C:\Users\lenovo\Local Sites\medit\app\public\wp-content\themes\oceanwp-child-theme-master\functions.php:37
+Stack trace:
+#0 C:\Users\lenovo\Local Sites\medit\app\public\wp-includes\class-wp-hook.php(310): contact_btnn('main_menu')
+#1 C:\Users\lenovo\Local Sites\medit\app\public\wp-includes\plugin.php(205): WP_Hook->apply_filters('main_menu', Array)
+#2 C:\Users\lenovo\Local Sites\medit\app\public\wp-content\themes\oceanwp\partials\header\nav.php(99): apply_filters('ocean_main_menu...', 'main_menu')
+#3 C:\Users\lenovo\Local Sites\medit\app\public\wp-includes\template.php(809): require('C:\\Users\\lenovo...')
+#4 C:\Users\lenovo\Local Sites\medit\app\public\wp-includes\template.php(741): load_template('C:\\Users\\lenovo...', false, Array)
+#5 C:\Users\lenovo\Local Sites\medit\app\public\wp-includes\general-template.php(206): locate_template(Array, true, false, Array)
+#6 C:\Users\lenovo\Local Sites\medit\app\public\wp-content\themes\oceanwp\inc\header-content.php(127): get_template_part('partials/header...')
+#7 C:\Users\lenovo\Local Sites\medit\app\public\wp-includes\class-wp-hook.php(310): oceanwp_header_navigation('')
+#8 C:\Users\lenovo\Local Sites\medit\app\public\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#9 C:\Users\lenovo\Local Sites\medit\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#10 C:\Users\lenovo\Local Sites\medit\app\public\wp-content\themes\oceanwp\partials\header\layout.php(100): do_action('ocean_header_in...')
+#11 C:\Users\lenovo\Local Sites\medit\app\public\wp-includes\template.php(809): require('C:\\Users\\lenovo...')
+#12 C:\Users\lenovo\Local Sites\medit\app\public\wp-includes\template.php(741): load_template('C:\\Users\\lenovo...', false, Array)
+#13 C:\Users\lenovo\Local Sites\medit\app\public\wp-includes\general-template.php(206): locate_template(Array, true, false, Array)
+#14 C:\Users\lenovo\Local Sites\medit\app\public\wp-content\themes\oceanwp\inc\helpers.php(1064): get_template_part('partials/header...')
+#15 C:\Users\lenovo\Local Sites\medit\app\public\wp-includes\class-wp-hook.php(310): oceanwp_header_template('')
+#16 C:\Users\lenovo\Local Sites\medit\app\public\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#17 C:\Users\lenovo\Local Sites\medit\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#18 C:\Users\lenovo\Local Sites\medit\app\public\wp-content\themes\oceanwp-child-theme-master\header.php(36): do_action('ocean_header')
+#19 C:\Users\lenovo\Local Sites\medit\app\public\wp-includes\template.php(807): require_once('C:\\Users\\lenovo...')
+#20 C:\Users\lenovo\Local Sites\medit\app\public\wp-includes\template.php(741): load_template('C:\\Users\\lenovo...', true, Array)
+#21 C:\Users\lenovo\Local Sites\medit\app\public\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#22 C:\Users\lenovo\Local Sites\medit\app\public\wp-content\themes\oceanwp\page.php(12): get_header()
+#23 C:\Users\lenovo\Local Sites\medit\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\lenovo...')
+#24 C:\Users\lenovo\Local Sites\medit\app\public\wp-blog-header.php(19): require_once('C:\\Users\\lenovo...')
+#25 C:\Users\lenovo\Local Sites\medit\app\public\index.php(17): require('C:\\Users\\lenovo...')
+#26 {main}
+  thrown in C:\Users\lenovo\Local Sites\medit\app\public\wp-content\themes\oceanwp-child-theme-master\functions.php on line 37
+[09-Oct-2023 16:21:51 UTC] PHP Warning:  Undefined property: stdClass::$themelocation in C:\Users\lenovo\Local Sites\medit\app\public\wp-content\themes\oceanwp-child-theme-master\functions.php on line 39
+[09-Oct-2023 16:21:51 UTC] PHP Warning:  Undefined property: stdClass::$themelocation in C:\Users\lenovo\Local Sites\medit\app\public\wp-content\themes\oceanwp-child-theme-master\functions.php on line 39
+[09-Oct-2023 16:21:51 UTC] PHP Warning:  Undefined property: stdClass::$themelocation in C:\Users\lenovo\Local Sites\medit\app\public\wp-content\themes\oceanwp-child-theme-master\functions.php on line 39
+[09-Oct-2023 16:29:54 UTC] PHP Parse error:  syntax error, unexpected token "echo" in C:\Users\lenovo\Local Sites\medit\app\public\wp-content\themes\oceanwp-child-theme-master\functions.php on line 39
+[09-Oct-2023 16:40:52 UTC] PHP Warning:  Array to string conversion in C:\Users\lenovo\Local Sites\medit\app\public\wp-content\themes\oceanwp-child-theme-master\functions.php on line 39
+[09-Oct-2023 16:42:05 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function wp_get_nav_menu_items(), 0 passed in C:\Users\lenovo\Local Sites\medit\app\public\wp-content\themes\oceanwp-child-theme-master\functions.php on line 39 and at least 1 expected in C:\Users\lenovo\Local Sites\medit\app\public\wp-includes\nav-menu.php:697
+Stack trace:
+#0 C:\Users\lenovo\Local Sites\medit\app\public\wp-content\themes\oceanwp-child-theme-master\functions.php(39): wp_get_nav_menu_items()
+#1 C:\Users\lenovo\Local Sites\medit\app\public\wp-includes\class-wp-hook.php(310): contact_btnn('')
+#2 C:\Users\lenovo\Local Sites\medit\app\public\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#3 C:\Users\lenovo\Local Sites\medit\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 C:\Users\lenovo\Local Sites\medit\app\public\wp-includes\general-template.php(3053): do_action('wp_head')
+#5 C:\Users\lenovo\Local Sites\medit\app\public\wp-content\themes\oceanwp-child-theme-master\header.php(17): wp_head()
+#6 C:\Users\lenovo\Local Sites\medit\app\public\wp-includes\template.php(807): require_once('C:\\Users\\lenovo...')
+#7 C:\Users\lenovo\Local Sites\medit\app\public\wp-includes\template.php(741): load_template('C:\\Users\\lenovo...', true, Array)
+#8 C:\Users\lenovo\Local Sites\medit\app\public\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#9 C:\Users\lenovo\Local Sites\medit\app\public\wp-content\themes\oceanwp\page.php(12): get_header()
+#10 C:\Users\lenovo\Local Sites\medit\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\lenovo...')
+#11 C:\Users\lenovo\Local Sites\medit\app\public\wp-blog-header.php(19): require_once('C:\\Users\\lenovo...')
+#12 C:\Users\lenovo\Local Sites\medit\app\public\index.php(17): require('C:\\Users\\lenovo...')
+#13 {main}
+  thrown in C:\Users\lenovo\Local Sites\medit\app\public\wp-includes\nav-menu.php on line 697
+[09-Oct-2023 16:43:20 UTC] PHP Warning:  Array to string conversion in C:\Users\lenovo\Local Sites\medit\app\public\wp-content\themes\oceanwp-child-theme-master\functions.php on line 39
+[09-Oct-2023 16:45:02 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function wp_get_nav_menu_items(), 0 passed in C:\Users\lenovo\Local Sites\medit\app\public\wp-content\themes\oceanwp-child-theme-master\functions.php on line 39 and at least 1 expected in C:\Users\lenovo\Local Sites\medit\app\public\wp-includes\nav-menu.php:697
+Stack trace:
+#0 C:\Users\lenovo\Local Sites\medit\app\public\wp-content\themes\oceanwp-child-theme-master\functions.php(39): wp_get_nav_menu_items()
+#1 C:\Users\lenovo\Local Sites\medit\app\public\wp-includes\class-wp-hook.php(310): contact_btnn('')
+#2 C:\Users\lenovo\Local Sites\medit\app\public\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#3 C:\Users\lenovo\Local Sites\medit\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 C:\Users\lenovo\Local Sites\medit\app\public\wp-includes\general-template.php(3053): do_action('wp_head')
+#5 C:\Users\lenovo\Local Sites\medit\app\public\wp-content\themes\oceanwp-child-theme-master\header.php(17): wp_head()
+#6 C:\Users\lenovo\Local Sites\medit\app\public\wp-includes\template.php(807): require_once('C:\\Users\\lenovo...')
+#7 C:\Users\lenovo\Local Sites\medit\app\public\wp-includes\template.php(741): load_template('C:\\Users\\lenovo...', true, Array)
+#8 C:\Users\lenovo\Local Sites\medit\app\public\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#9 C:\Users\lenovo\Local Sites\medit\app\public\wp-content\themes\oceanwp\page.php(12): get_header()
+#10 C:\Users\lenovo\Local Sites\medit\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\lenovo...')
+#11 C:\Users\lenovo\Local Sites\medit\app\public\wp-blog-header.php(19): require_once('C:\\Users\\lenovo...')
+#12 C:\Users\lenovo\Local Sites\medit\app\public\index.php(17): require('C:\\Users\\lenovo...')
+#13 {main}
+  thrown in C:\Users\lenovo\Local Sites\medit\app\public\wp-includes\nav-menu.php on line 697
+[09-Oct-2023 16:48:24 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_nav_menu_setup() in C:\Users\lenovo\Local Sites\medit\app\public\wp-content\themes\oceanwp-child-theme-master\functions.php:39
+Stack trace:
+#0 C:\Users\lenovo\Local Sites\medit\app\public\wp-includes\class-wp-hook.php(310): contact_btnn('')
+#1 C:\Users\lenovo\Local Sites\medit\app\public\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#2 C:\Users\lenovo\Local Sites\medit\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\Users\lenovo\Local Sites\medit\app\public\wp-includes\general-template.php(3053): do_action('wp_head')
+#4 C:\Users\lenovo\Local Sites\medit\app\public\wp-content\themes\oceanwp-child-theme-master\header.php(17): wp_head()
+#5 C:\Users\lenovo\Local Sites\medit\app\public\wp-includes\template.php(807): require_once('C:\\Users\\lenovo...')
+#6 C:\Users\lenovo\Local Sites\medit\app\public\wp-includes\template.php(741): load_template('C:\\Users\\lenovo...', true, Array)
+#7 C:\Users\lenovo\Local Sites\medit\app\public\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#8 C:\Users\lenovo\Local Sites\medit\app\public\wp-content\themes\oceanwp\page.php(12): get_header()
+#9 C:\Users\lenovo\Local Sites\medit\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\lenovo...')
+#10 C:\Users\lenovo\Local Sites\medit\app\public\wp-blog-header.php(19): require_once('C:\\Users\\lenovo...')
+#11 C:\Users\lenovo\Local Sites\medit\app\public\index.php(17): require('C:\\Users\\lenovo...')
+#12 {main}
+  thrown in C:\Users\lenovo\Local Sites\medit\app\public\wp-content\themes\oceanwp-child-theme-master\functions.php on line 39
+[09-Oct-2023 16:48:50 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_nav_menu_item_link_meta_box() in C:\Users\lenovo\Local Sites\medit\app\public\wp-content\themes\oceanwp-child-theme-master\functions.php:39
+Stack trace:
+#0 C:\Users\lenovo\Local Sites\medit\app\public\wp-includes\class-wp-hook.php(310): contact_btnn('')
+#1 C:\Users\lenovo\Local Sites\medit\app\public\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#2 C:\Users\lenovo\Local Sites\medit\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\Users\lenovo\Local Sites\medit\app\public\wp-includes\general-template.php(3053): do_action('wp_head')
+#4 C:\Users\lenovo\Local Sites\medit\app\public\wp-content\themes\oceanwp-child-theme-master\header.php(17): wp_head()
+#5 C:\Users\lenovo\Local Sites\medit\app\public\wp-includes\template.php(807): require_once('C:\\Users\\lenovo...')
+#6 C:\Users\lenovo\Local Sites\medit\app\public\wp-includes\template.php(741): load_template('C:\\Users\\lenovo...', true, Array)
+#7 C:\Users\lenovo\Local Sites\medit\app\public\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#8 C:\Users\lenovo\Local Sites\medit\app\public\wp-content\themes\oceanwp\page.php(12): get_header()
+#9 C:\Users\lenovo\Local Sites\medit\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\lenovo...')
+#10 C:\Users\lenovo\Local Sites\medit\app\public\wp-blog-header.php(19): require_once('C:\\Users\\lenovo...')
+#11 C:\Users\lenovo\Local Sites\medit\app\public\index.php(17): require('C:\\Users\\lenovo...')
+#12 {main}
+  thrown in C:\Users\lenovo\Local Sites\medit\app\public\wp-content\themes\oceanwp-child-theme-master\functions.php on line 39
+[09-Oct-2023 16:48:52 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_nav_menu_item_link_meta_box() in C:\Users\lenovo\Local Sites\medit\app\public\wp-content\themes\oceanwp-child-theme-master\functions.php:39
+Stack trace:
+#0 C:\Users\lenovo\Local Sites\medit\app\public\wp-includes\class-wp-hook.php(310): contact_btnn('')
+#1 C:\Users\lenovo\Local Sites\medit\app\public\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#2 C:\Users\lenovo\Local Sites\medit\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\Users\lenovo\Local Sites\medit\app\public\wp-includes\general-template.php(3053): do_action('wp_head')
+#4 C:\Users\lenovo\Local Sites\medit\app\public\wp-content\themes\oceanwp-child-theme-master\header.php(17): wp_head()
+#5 C:\Users\lenovo\Local Sites\medit\app\public\wp-includes\template.php(807): require_once('C:\\Users\\lenovo...')
+#6 C:\Users\lenovo\Local Sites\medit\app\public\wp-includes\template.php(741): load_template('C:\\Users\\lenovo...', true, Array)
+#7 C:\Users\lenovo\Local Sites\medit\app\public\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#8 C:\Users\lenovo\Local Sites\medit\app\public\wp-content\themes\oceanwp\page.php(12): get_header()
+#9 C:\Users\lenovo\Local Sites\medit\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\lenovo...')
+#10 C:\Users\lenovo\Local Sites\medit\app\public\wp-blog-header.php(19): require_once('C:\\Users\\lenovo...')
+#11 C:\Users\lenovo\Local Sites\medit\app\public\index.php(17): require('C:\\Users\\lenovo...')
+#12 {main}
+  thrown in C:\Users\lenovo\Local Sites\medit\app\public\wp-content\themes\oceanwp-child-theme-master\functions.php on line 39
+[09-Oct-2023 16:56:04 UTC] PHP Warning:  Undefined variable $menu_args in C:\Users\lenovo\Local Sites\medit\app\public\wp-content\themes\oceanwp-child-theme-master\functions.php on line 39
+[09-Oct-2023 18:45:51 UTC] PHP Notice:  Object of class WP_Term could not be converted to int in C:\Users\lenovo\Local Sites\medit\app\public\wp-content\themes\oceanwp-child-theme-master\functions.php on line 46
+[09-Oct-2023 18:45:51 UTC] PHP Notice:  Object of class WP_Term could not be converted to int in C:\Users\lenovo\Local Sites\medit\app\public\wp-content\themes\oceanwp-child-theme-master\functions.php on line 46
+[09-Oct-2023 18:45:51 UTC] PHP Notice:  Object of class WP_Term could not be converted to int in C:\Users\lenovo\Local Sites\medit\app\public\wp-content\themes\oceanwp-child-theme-master\functions.php on line 46
+[09-Oct-2023 19:01:50 UTC] PHP Fatal error:  Cannot redeclare contact_btn() (previously declared in C:\Users\lenovo\Local Sites\medit\app\public\wp-content\themes\oceanwp-child-theme-master\functions.php:44) in C:\Users\lenovo\Local Sites\medit\app\public\wp-content\themes\oceanwp-child-theme-master\header.php on line 105
+[09-Oct-2023 19:38:54 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function add_shortcode(), 1 passed in C:\Users\lenovo\Local Sites\medit\app\public\wp-content\themes\oceanwp-child-theme-master\header.php on line 78 and exactly 2 expected in C:\Users\lenovo\Local Sites\medit\app\public\wp-includes\shortcodes.php:63
+Stack trace:
+#0 C:\Users\lenovo\Local Sites\medit\app\public\wp-content\themes\oceanwp-child-theme-master\header.php(78): add_shortcode('[contact-form-7...')
+#1 C:\Users\lenovo\Local Sites\medit\app\public\wp-includes\template.php(807): require_once('C:\\Users\\lenovo...')
+#2 C:\Users\lenovo\Local Sites\medit\app\public\wp-includes\template.php(741): load_template('C:\\Users\\lenovo...', true, Array)
+#3 C:\Users\lenovo\Local Sites\medit\app\public\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#4 C:\Users\lenovo\Local Sites\medit\app\public\wp-content\themes\oceanwp\page.php(12): get_header()
+#5 C:\Users\lenovo\Local Sites\medit\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\lenovo...')
+#6 C:\Users\lenovo\Local Sites\medit\app\public\wp-blog-header.php(19): require_once('C:\\Users\\lenovo...')
+#7 C:\Users\lenovo\Local Sites\medit\app\public\index.php(17): require('C:\\Users\\lenovo...')
+#8 {main}
+  thrown in C:\Users\lenovo\Local Sites\medit\app\public\wp-includes\shortcodes.php on line 63
+[14-Oct-2023 09:54:13 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée in C:\Users\lenovo\Local Sites\medit\app\public\wp-includes\class-wpdb.php on line 2035
+[14-Oct-2023 09:54:29 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée in C:\Users\lenovo\Local Sites\medit\app\public\wp-includes\class-wpdb.php on line 2035
+[14-Oct-2023 09:58:44 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée in C:\Users\lenovo\Local Sites\medit\app\public\wp-includes\class-wpdb.php on line 2035
+[14-Oct-2023 10:07:22 UTC] PHP Warning:  mysqli_real_connect(): (HY000/1045): Access denied for user 'ArthurBerthault'@'localhost' (using password: YES) in C:\Users\lenovo\Local Sites\medit\app\public\wp-includes\class-wpdb.php on line 2035
+[14-Oct-2023 10:07:22 UTC] PHP Warning:  mysqli_real_connect(): (HY000/1045): Access denied for user 'ArthurBerthault'@'localhost' (using password: YES) in C:\Users\lenovo\Local Sites\medit\app\public\wp-includes\class-wpdb.php on line 2035
+[14-Oct-2023 10:07:23 UTC] PHP Warning:  mysqli_real_connect(): (HY000/1045): Access denied for user 'ArthurBerthault'@'localhost' (using password: YES) in C:\Users\lenovo\Local Sites\medit\app\public\wp-includes\class-wpdb.php on line 2035
+[14-Oct-2023 10:07:23 UTC] PHP Warning:  mysqli_real_connect(): (HY000/1045): Access denied for user 'ArthurBerthault'@'localhost' (using password: YES) in C:\Users\lenovo\Local Sites\medit\app\public\wp-includes\class-wpdb.php on line 2035
+[14-Oct-2023 10:07:24 UTC] PHP Warning:  mysqli_real_connect(): (HY000/1045): Access denied for user 'ArthurBerthault'@'localhost' (using password: YES) in C:\Users\lenovo\Local Sites\medit\app\public\wp-includes\class-wpdb.php on line 2035
+[14-Oct-2023 10:07:38 UTC] PHP Warning:  mysqli_real_connect(): (HY000/1045): Access denied for user 'ArthurBerthault'@'localhost' (using password: YES) in C:\Users\lenovo\Local Sites\medit\app\public\wp-includes\class-wpdb.php on line 2035
+[14-Oct-2023 10:07:38 UTC] PHP Warning:  mysqli_real_connect(): (HY000/1045): Access denied for user 'ArthurBerthault'@'localhost' (using password: YES) in C:\Users\lenovo\Local Sites\medit\app\public\wp-includes\class-wpdb.php on line 2035
+[14-Oct-2023 10:16:04 UTC] PHP Deprecated:  strip_tags(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Users\lenovo\Local Sites\medit\app\public\wp-includes\theme.php on line 1932
+[14-Oct-2023 10:16:04 UTC] PHP Deprecated:  str_contains(): Passing null to parameter #1 ($haystack) of type string is deprecated in C:\Users\lenovo\Local Sites\medit\app\public\wp-includes\shortcodes.php on line 246
+[14-Oct-2023 18:23:48 UTC] PHP Deprecated:  strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in C:\Users\lenovo\Local Sites\medit\app\public\wp-includes\functions.php on line 7307
+[14-Oct-2023 18:23:48 UTC] PHP Deprecated:  str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\Users\lenovo\Local Sites\medit\app\public\wp-includes\functions.php on line 2241
+[14-Oct-2023 18:24:19 UTC] PHP Deprecated:  strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in C:\Users\lenovo\Local Sites\medit\app\public\wp-includes\functions.php on line 7307
+[14-Oct-2023 18:24:19 UTC] PHP Deprecated:  str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\Users\lenovo\Local Sites\medit\app\public\wp-includes\functions.php on line 2241
+[14-Oct-2023 18:24:25 UTC] PHP Deprecated:  strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in C:\Users\lenovo\Local Sites\medit\app\public\wp-includes\functions.php on line 7307
+[14-Oct-2023 18:24:25 UTC] PHP Deprecated:  str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\Users\lenovo\Local Sites\medit\app\public\wp-includes\functions.php on line 2241
+[14-Oct-2023 18:24:32 UTC] PHP Deprecated:  strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in C:\Users\lenovo\Local Sites\medit\app\public\wp-includes\functions.php on line 7307
+[14-Oct-2023 18:24:32 UTC] PHP Deprecated:  str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\Users\lenovo\Local Sites\medit\app\public\wp-includes\functions.php on line 2241
+[14-Oct-2023 18:24:48 UTC] PHP Deprecated:  strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in C:\Users\lenovo\Local Sites\medit\app\public\wp-includes\functions.php on line 7307
+[14-Oct-2023 18:24:48 UTC] PHP Deprecated:  str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\Users\lenovo\Local Sites\medit\app\public\wp-includes\functions.php on line 2241
+[14-Oct-2023 18:24:49 UTC] PHP Deprecated:  strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in C:\Users\lenovo\Local Sites\medit\app\public\wp-includes\functions.php on line 7307
+[14-Oct-2023 18:24:49 UTC] PHP Deprecated:  str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\Users\lenovo\Local Sites\medit\app\public\wp-includes\functions.php on line 2241
+[14-Oct-2023 18:24:56 UTC] PHP Deprecated:  strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in C:\Users\lenovo\Local Sites\medit\app\public\wp-includes\functions.php on line 7307
+[14-Oct-2023 18:24:56 UTC] PHP Deprecated:  str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\Users\lenovo\Local Sites\medit\app\public\wp-includes\functions.php on line 2241
+[14-Oct-2023 18:25:57 UTC] PHP Deprecated:  strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in C:\Users\lenovo\Local Sites\medit\app\public\wp-includes\functions.php on line 7307
+[14-Oct-2023 18:25:57 UTC] PHP Deprecated:  str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\Users\lenovo\Local Sites\medit\app\public\wp-includes\functions.php on line 2241
+[14-Oct-2023 18:26:01 UTC] PHP Deprecated:  strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in C:\Users\lenovo\Local Sites\medit\app\public\wp-includes\functions.php on line 7307
+[14-Oct-2023 18:26:01 UTC] PHP Deprecated:  str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\Users\lenovo\Local Sites\medit\app\public\wp-includes\functions.php on line 2241
+[14-Oct-2023 18:26:12 UTC] PHP Warning:  Undefined array key "TRIAL" in C:\Users\lenovo\Local Sites\medit\app\public\wp-content\plugins\astra_worker\astra_worker.php on line 107
+[14-Oct-2023 18:26:12 UTC] PHP Warning:  Undefined array key "TRIAL" in C:\Users\lenovo\Local Sites\medit\app\public\wp-content\plugins\astra_worker\astra_worker.php on line 107
+[14-Oct-2023 18:26:16 UTC] PHP Warning:  Undefined array key "TRIAL" in C:\Users\lenovo\Local Sites\medit\app\public\wp-content\plugins\astra_worker\astra_worker.php on line 107
+[14-Oct-2023 18:26:36 UTC] PHP Warning:  Undefined array key "TRIAL" in C:\Users\lenovo\Local Sites\medit\app\public\wp-content\plugins\astra_worker\astra_worker.php on line 107
+[14-Oct-2023 18:26:37 UTC] PHP Warning:  Undefined array key "TRIAL" in C:\Users\lenovo\Local Sites\medit\app\public\wp-content\plugins\astra_worker\astra_worker.php on line 107
+[14-Oct-2023 18:26:38 UTC] PHP Warning:  Undefined array key "TRIAL" in C:\Users\lenovo\Local Sites\medit\app\public\wp-content\plugins\astra_worker\astra_worker.php on line 107
+[14-Oct-2023 18:26:40 UTC] PHP Warning:  Undefined array key "TRIAL" in C:\Users\lenovo\Local Sites\medit\app\public\wp-content\plugins\astra_worker\astra_worker.php on line 107
+[14-Oct-2023 18:26:40 UTC] PHP Warning:  Undefined array key "TRIAL" in C:\Users\lenovo\Local Sites\medit\app\public\wp-content\plugins\astra_worker\astra_worker.php on line 107
+[14-Oct-2023 18:26:41 UTC] PHP Warning:  Undefined array key "TRIAL" in C:\Users\lenovo\Local Sites\medit\app\public\wp-content\plugins\astra_worker\astra_worker.php on line 107
+[14-Oct-2023 18:26:41 UTC] PHP Warning:  Undefined array key "TRIAL" in C:\Users\lenovo\Local Sites\medit\app\public\wp-content\plugins\astra_worker\astra_worker.php on line 107
+[14-Oct-2023 18:26:41 UTC] PHP Warning:  Undefined array key "TRIAL" in C:\Users\lenovo\Local Sites\medit\app\public\wp-content\plugins\astra_worker\astra_worker.php on line 107
+[14-Oct-2023 18:26:41 UTC] PHP Warning:  Undefined array key "TRIAL" in C:\Users\lenovo\Local Sites\medit\app\public\wp-content\plugins\astra_worker\astra_worker.php on line 107
+[14-Oct-2023 18:26:41 UTC] PHP Warning:  Undefined array key "TRIAL" in C:\Users\lenovo\Local Sites\medit\app\public\wp-content\plugins\astra_worker\astra_worker.php on line 107
+[14-Oct-2023 18:26:41 UTC] PHP Warning:  Undefined array key "TRIAL" in C:\Users\lenovo\Local Sites\medit\app\public\wp-content\plugins\astra_worker\astra_worker.php on line 107
+[14-Oct-2023 18:26:41 UTC] PHP Warning:  Undefined array key "TRIAL" in C:\Users\lenovo\Local Sites\medit\app\public\wp-content\plugins\astra_worker\astra_worker.php on line 107
+[14-Oct-2023 18:26:44 UTC] PHP Warning:  Undefined array key "TRIAL" in C:\Users\lenovo\Local Sites\medit\app\public\wp-content\plugins\astra_worker\astra_worker.php on line 107
+[14-Oct-2023 18:26:44 UTC] PHP Warning:  Undefined array key "TRIAL" in C:\Users\lenovo\Local Sites\medit\app\public\wp-content\plugins\astra_worker\astra_worker.php on line 107
+[14-Oct-2023 18:26:45 UTC] PHP Warning:  Undefined array key "TRIAL" in C:\Users\lenovo\Local Sites\medit\app\public\wp-content\plugins\astra_worker\astra_worker.php on line 107
+[14-Oct-2023 18:26:45 UTC] PHP Warning:  Undefined array key "TRIAL" in C:\Users\lenovo\Local Sites\medit\app\public\wp-content\plugins\astra_worker\astra_worker.php on line 107
+[14-Oct-2023 18:26:45 UTC] PHP Warning:  Undefined array key "TRIAL" in C:\Users\lenovo\Local Sites\medit\app\public\wp-content\plugins\astra_worker\astra_worker.php on line 107
+[14-Oct-2023 18:26:46 UTC] PHP Warning:  Undefined array key "TRIAL" in C:\Users\lenovo\Local Sites\medit\app\public\wp-content\plugins\astra_worker\astra_worker.php on line 107
+[14-Oct-2023 18:26:46 UTC] PHP Warning:  Undefined array key "TRIAL" in C:\Users\lenovo\Local Sites\medit\app\public\wp-content\plugins\astra_worker\astra_worker.php on line 107
+[14-Oct-2023 18:26:46 UTC] PHP Warning:  Undefined array key "TRIAL" in C:\Users\lenovo\Local Sites\medit\app\public\wp-content\plugins\astra_worker\astra_worker.php on line 107
+[14-Oct-2023 18:26:46 UTC] PHP Warning:  Undefined array key "TRIAL" in C:\Users\lenovo\Local Sites\medit\app\public\wp-content\plugins\astra_worker\astra_worker.php on line 107
+[14-Oct-2023 18:26:52 UTC] PHP Warning:  Undefined array key "TRIAL" in C:\Users\lenovo\Local Sites\medit\app\public\wp-content\plugins\astra_worker\astra_worker.php on line 107
+[14-Oct-2023 18:26:53 UTC] PHP Warning:  Undefined array key "TRIAL" in C:\Users\lenovo\Local Sites\medit\app\public\wp-content\plugins\astra_worker\astra_worker.php on line 107
+[14-Oct-2023 18:26:53 UTC] PHP Warning:  Undefined array key "TRIAL" in C:\Users\lenovo\Local Sites\medit\app\public\wp-content\plugins\astra_worker\astra_worker.php on line 107
+[14-Oct-2023 18:26:54 UTC] PHP Warning:  Undefined array key "TRIAL" in C:\Users\lenovo\Local Sites\medit\app\public\wp-content\plugins\astra_worker\astra_worker.php on line 107
+[14-Oct-2023 18:26:54 UTC] PHP Warning:  Undefined array key "TRIAL" in C:\Users\lenovo\Local Sites\medit\app\public\wp-content\plugins\astra_worker\astra_worker.php on line 107
+[14-Oct-2023 18:26:55 UTC] PHP Warning:  Undefined array key "TRIAL" in C:\Users\lenovo\Local Sites\medit\app\public\wp-content\plugins\astra_worker\astra_worker.php on line 107
+[14-Oct-2023 18:26:55 UTC] PHP Warning:  Undefined array key "TRIAL" in C:\Users\lenovo\Local Sites\medit\app\public\wp-content\plugins\astra_worker\astra_worker.php on line 107
+[14-Oct-2023 18:26:55 UTC] PHP Warning:  Undefined array key "TRIAL" in C:\Users\lenovo\Local Sites\medit\app\public\wp-content\plugins\astra_worker\astra_worker.php on line 107
+[14-Oct-2023 18:26:55 UTC] PHP Warning:  Undefined array key "TRIAL" in C:\Users\lenovo\Local Sites\medit\app\public\wp-content\plugins\astra_worker\astra_worker.php on line 107
+[14-Oct-2023 18:26:55 UTC] PHP Warning:  Undefined array key "TRIAL" in C:\Users\lenovo\Local Sites\medit\app\public\wp-content\plugins\astra_worker\astra_worker.php on line 107
+[14-Oct-2023 18:26:55 UTC] PHP Warning:  Undefined array key "TRIAL" in C:\Users\lenovo\Local Sites\medit\app\public\wp-content\plugins\astra_worker\astra_worker.php on line 107
+[14-Oct-2023 18:26:55 UTC] PHP Warning:  Undefined array key "TRIAL" in C:\Users\lenovo\Local Sites\medit\app\public\wp-content\plugins\astra_worker\astra_worker.php on line 107
+[14-Oct-2023 18:26:57 UTC] PHP Warning:  Undefined array key "TRIAL" in C:\Users\lenovo\Local Sites\medit\app\public\wp-content\plugins\astra_worker\astra_worker.php on line 107
+[14-Oct-2023 18:26:58 UTC] PHP Warning:  Undefined array key "TRIAL" in C:\Users\lenovo\Local Sites\medit\app\public\wp-content\plugins\astra_worker\astra_worker.php on line 107
+[14-Oct-2023 18:26:58 UTC] PHP Warning:  Undefined array key "TRIAL" in C:\Users\lenovo\Local Sites\medit\app\public\wp-content\plugins\astra_worker\astra_worker.php on line 107
+[14-Oct-2023 18:27:00 UTC] PHP Warning:  Undefined array key "TRIAL" in C:\Users\lenovo\Local Sites\medit\app\public\wp-content\plugins\astra_worker\astra_worker.php on line 107
+[14-Oct-2023 18:27:01 UTC] PHP Warning:  Undefined array key "TRIAL" in C:\Users\lenovo\Local Sites\medit\app\public\wp-content\plugins\astra_worker\astra_worker.php on line 107
+[14-Oct-2023 18:27:04 UTC] PHP Warning:  Undefined array key "TRIAL" in C:\Users\lenovo\Local Sites\medit\app\public\wp-content\plugins\astra_worker\astra_worker.php on line 107
+[14-Oct-2023 18:27:08 UTC] PHP Warning:  Undefined array key "TRIAL" in C:\Users\lenovo\Local Sites\medit\app\public\wp-content\plugins\astra_worker\astra_worker.php on line 107
+[14-Oct-2023 18:29:48 UTC] PHP Fatal error:  Cannot redeclare contact_btn() (previously declared in C:\Users\lenovo\Local Sites\medit\app\public\wp-content\themes\oceanwp-child-theme-master\functions.php:44) in C:\Users\lenovo\Local Sites\medit\app\public\wp-content\themes\oceanwp-child-theme-master\header.php on line 96
+[14-Oct-2023 18:30:10 UTC] PHP Fatal error:  Cannot redeclare contact_btn() (previously declared in C:\Users\lenovo\Local Sites\medit\app\public\wp-content\themes\oceanwp-child-theme-master\functions.php:44) in C:\Users\lenovo\Local Sites\medit\app\public\wp-content\themes\oceanwp-child-theme-master\header.php on line 96
+[14-Oct-2023 18:30:11 UTC] PHP Fatal error:  Cannot redeclare contact_btn() (previously declared in C:\Users\lenovo\Local Sites\medit\app\public\wp-content\themes\oceanwp-child-theme-master\functions.php:44) in C:\Users\lenovo\Local Sites\medit\app\public\wp-content\themes\oceanwp-child-theme-master\header.php on line 96
+[14-Oct-2023 18:31:46 UTC] PHP Fatal error:  Cannot redeclare contact_btn() (previously declared in C:\Users\lenovo\Local Sites\medit\app\public\wp-content\themes\oceanwp-child-theme-master\functions.php:44) in C:\Users\lenovo\Local Sites\medit\app\public\wp-content\themes\oceanwp-child-theme-master\header.php on line 96
+[14-Oct-2023 18:31:46 UTC] PHP Fatal error:  Cannot redeclare contact_btn() (previously declared in C:\Users\lenovo\Local Sites\medit\app\public\wp-content\themes\oceanwp-child-theme-master\functions.php:44) in C:\Users\lenovo\Local Sites\medit\app\public\wp-content\themes\oceanwp-child-theme-master\header.php on line 96
+[14-Oct-2023 18:31:51 UTC] PHP Fatal error:  Cannot redeclare contact_btn() (previously declared in C:\Users\lenovo\Local Sites\medit\app\public\wp-content\themes\oceanwp-child-theme-master\functions.php:44) in C:\Users\lenovo\Local Sites\medit\app\public\wp-content\themes\oceanwp-child-theme-master\header.php on line 96
+[14-Oct-2023 18:31:53 UTC] PHP Fatal error:  Cannot redeclare contact_btn() (previously declared in C:\Users\lenovo\Local Sites\medit\app\public\wp-content\themes\oceanwp-child-theme-master\functions.php:44) in C:\Users\lenovo\Local Sites\medit\app\public\wp-content\themes\oceanwp-child-theme-master\header.php on line 96
+[14-Oct-2023 18:31:55 UTC] PHP Fatal error:  Cannot redeclare contact_btn() (previously declared in C:\Users\lenovo\Local Sites\medit\app\public\wp-content\themes\oceanwp-child-theme-master\functions.php:44) in C:\Users\lenovo\Local Sites\medit\app\public\wp-content\themes\oceanwp-child-theme-master\header.php on line 96
+[14-Oct-2023 18:31:55 UTC] PHP Fatal error:  Cannot redeclare contact_btn() (previously declared in C:\Users\lenovo\Local Sites\medit\app\public\wp-content\themes\oceanwp-child-theme-master\functions.php:44) in C:\Users\lenovo\Local Sites\medit\app\public\wp-content\themes\oceanwp-child-theme-master\header.php on line 96
